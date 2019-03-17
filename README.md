@@ -4,8 +4,16 @@ Mobile browsers suffer from inconsistent calculation of `vh` units. This package
 
 ## Install
 
+### npm
+
 ```
 $ npm install @karolisram/consistent-vh-units
+```
+
+### yarn
+
+```
+$ yarn add @karolisram/consistent-vh-units
 ```
 
 ## Usage
