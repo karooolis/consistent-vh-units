@@ -1,6 +1,6 @@
 {
   "name": "@karolisram/consistent-vh-units",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Mobile browsers suffer from inconsistent calculation of vh units. This package partly alleviates the problem.",
   "main": "./build/index.js",
   "scripts": {

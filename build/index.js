@@ -1,6 +1,6 @@
 "use strict";
 
-var debounceEvent = function debounceEvent(callback, time) {
+var debounce = function debounce(callback, time) {
   var interval;
   return function () {
     for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {

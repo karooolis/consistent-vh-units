@@ -1,4 +1,4 @@
-const debounceEvent = (callback, time) => {
+const debounce = (callback, time) => {
   let interval;
   return (...args) => {
     clearTimeout(interval);
