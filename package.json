@@ -1,0 +1,23 @@
+{
+  "name": "@karolisram/consistent-vh-units",
+  "version": "1.0.0",
+  "description": "Mobile browsers suffer from inconsistent calculation of vh units. This package partly alleviates the problem.",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "babel ./src/index.js --out-file ./build/index.js"
+  },
+  "author": "Karolis Ramanauskas",
+  "license": "ISC",
+  "keywords": [
+    "vh",
+    "css",
+    "viewport",
+    "viewport height",
+    "height"
+  ],
+  "dependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4"
+  }
+}
